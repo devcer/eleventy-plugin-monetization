@@ -5,7 +5,7 @@
     "main": ".eleventy.js",
     "repository": {
       "type": "git",
-      "url": "git+url"
+      "url": "git+https://github.com/DanCanetti/eleventy-plugin-monetization.git"
     },
     "keywords": [
       "eleventy",
@@ -18,9 +18,9 @@
     },
     "license": "MIT",
     "bugs": {
-      "url": "giturl"
+      "url": "https://github.com/DanCanetti/eleventy-plugin-monetization.git#issues"
     },
-    "homepage": "giturl",
+    "homepage": "https://github.com/DanCanetti/eleventy-plugin-monetization.git",
     "dependencies": {
       "@11ty/eleventy": "^0.11.0"
     }
