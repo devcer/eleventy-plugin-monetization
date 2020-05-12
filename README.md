@@ -45,10 +45,19 @@ Add `id="monetization-exclusive" class="hidden"` to the parent of the content yo
 
 #### CTA 
 
-Add the below div just above the `id="monetization-exclusive"` area. This will prompt a user to start a Web Monetization extension in order to show this content.
+Add the below divs just above the `id="monetization-exclusive"` area. This will prompt a user to start a Web Monetization extension in order to show this content.
 
 ```
-<div id="monetization-cta" class="hidden">
-  Please install a Web Monetization extension to support me!
+<div id="monetization-loading" class="body__section body__section--post monetization--hidden">
+  Loading exclusive content...
+</div>
+
+<div id="monetization-cta" class="body__section body__section--post monetization--hidden">
+  <p>
+    This content is exclusive to my supporters.
+  </p>
+  <p>
+    Please install a <a href="https://chrome.google.com/webstore/detail/coil/locbifcbeldmnphbgkdigjmkbfkhbnca?hl=en" target="_blank">Web Monetization extension</a> to support me!
+  </p>
 </div>
 ```
