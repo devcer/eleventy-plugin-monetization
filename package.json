@@ -1,0 +1,27 @@
+{
+    "name": "eleventy-plugin-monetization",
+    "version": "0.0.1",
+    "description": "An Eleventy plugin to monetize posts and site content",
+    "main": ".eleventy.js",
+    "repository": {
+      "type": "git",
+      "url": "git+url"
+    },
+    "keywords": [
+      "eleventy",
+      "monetization"
+    ],
+    "author": {
+      "name": "Dan Canetti",
+      "email": "indo@danielcanetti.com",
+      "url": "https://danielcanetti.com/"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "giturl"
+    },
+    "homepage": "giturl",
+    "dependencies": {
+      "@11ty/eleventy": "^0.11.0"
+    }
+  }
