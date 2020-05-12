@@ -61,3 +61,26 @@ Add the below divs just above the `id="monetization-exclusive"` area. This will 
   </p>
 </div>
 ```
+
+#### Complete Example 
+
+```
+<div id="monetization-loading" class="body__section body__section--post monetization--hidden">
+  Loading exclusive content...
+</div>
+
+<div id="monetization-cta" class="body__section body__section--post monetization--hidden">
+  <p>
+    This content is exclusive to my supporters.
+  </p>
+  <p>
+    Please install a <a href="https://chrome.google.com/webstore/detail/coil/locbifcbeldmnphbgkdigjmkbfkhbnca?hl=en" target="_blank">Web Monetization extension</a> to support me!
+  </p>
+</div>
+
+<div id="monetization-exclusive" class="monetization--hidden">
+  <p>
+    Exclusive content.
+  </p>
+</div>
+```
