@@ -31,20 +31,12 @@ module.exports = function(eleventyConfig) {
 };
 ```
 
-### The Shortcode
-
-The shortcode has three parts, the `provider_url` and `unique_id` are explained above in the *Setup Coil to take payments* section. The final section, which defaults to `false` allows you to enable and disable monetization as you like without needing to make any major changes.
-
 ### Usage
 
 Add the shortcode below to the `<head>` of your 11ty site where you wish to start monetizing. For example, this could be added to the `<head>` of a post [template file](https://www.11ty.dev/docs/data/) or create a monetize template file.
 
 ```
-{% monetize11ty
-  "provider_url",
-  "unique_id",
-  "false"
-%}
+{% monetize11ty "provider_url", "unique_id" %}
 ```
 
 #### Hiding content
