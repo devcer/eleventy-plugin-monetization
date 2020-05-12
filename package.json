@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-monetization",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "An Eleventy plugin to monetize posts and site content",
   "main": ".eleventy.js",
   "repository": {
@@ -16,11 +16,5 @@
   "bugs": {
     "url": "https://github.com/DanCanetti/eleventy-plugin-monetization/issues"
   },
-  "homepage": "https://github.com/DanCanetti/eleventy-plugin-monetization#readme",
-  "dependencies": {
-    "@11ty/eleventy": "^0.11.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "homepage": "https://github.com/DanCanetti/eleventy-plugin-monetization#readme"
 }

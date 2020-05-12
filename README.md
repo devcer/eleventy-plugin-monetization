@@ -48,11 +48,11 @@ Add `id="monetization-exclusive" class="hidden"` to the parent of the content yo
 Add the below divs just above the `id="monetization-exclusive"` area. This will prompt a user to start a Web Monetization extension in order to show this content.
 
 ```
-<div id="monetization-loading" class="body__section body__section--post monetization--hidden">
+<div id="monetization-loading" class="monetization--hidden">
   Loading exclusive content...
 </div>
 
-<div id="monetization-cta" class="body__section body__section--post monetization--hidden">
+<div id="monetization-cta" class="monetization--hidden">
   <p>
     This content is exclusive to my supporters.
   </p>
@@ -65,11 +65,11 @@ Add the below divs just above the `id="monetization-exclusive"` area. This will 
 #### Complete Example 
 
 ```
-<div id="monetization-loading" class="body__section body__section--post monetization--hidden">
+<div id="monetization-loading" class="monetization--hidden">
   Loading exclusive content...
 </div>
 
-<div id="monetization-cta" class="body__section body__section--post monetization--hidden">
+<div id="monetization-cta" class="monetization--hidden">
   <p>
     This content is exclusive to my supporters.
   </p>
