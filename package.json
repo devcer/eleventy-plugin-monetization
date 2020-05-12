@@ -1,27 +1,26 @@
 {
-    "name": "eleventy-plugin-monetization",
-    "version": "0.0.1",
-    "description": "An Eleventy plugin to monetize posts and site content",
-    "main": ".eleventy.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DanCanetti/eleventy-plugin-monetization.git"
-    },
-    "keywords": [
-      "eleventy",
-      "monetization"
-    ],
-    "author": {
-      "name": "Dan Canetti",
-      "email": "indo@danielcanetti.com",
-      "url": "https://danielcanetti.com/"
-    },
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/DanCanetti/eleventy-plugin-monetization.git#issues"
-    },
-    "homepage": "https://github.com/DanCanetti/eleventy-plugin-monetization.git",
-    "dependencies": {
-      "@11ty/eleventy": "^0.11.0"
-    }
+  "name": "eleventy-plugin-monetization",
+  "version": "0.0.1",
+  "description": "An Eleventy plugin to monetize posts and site content",
+  "main": ".eleventy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanCanetti/eleventy-plugin-monetization.git"
+  },
+  "keywords": [
+    "eleventy",
+    "monetization"
+  ],
+  "author": "Dan Canetti <indo@danielcanetti.com> (https://danielcanetti.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanCanetti/eleventy-plugin-monetization.git#issues"
+  },
+  "homepage": "https://github.com/DanCanetti/eleventy-plugin-monetization.git",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
+}
