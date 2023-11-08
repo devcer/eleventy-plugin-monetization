@@ -13,8 +13,11 @@ function showLoading () {
     document.getElementById('monetization-loading').classList.remove('monetization--hidden')
 }
 
-if (document.monetization) {
-    document.monetization.addEventListener('monetizationstart', () => {
+const isWebMonetizationSupported = document.createElement('link').relList.supports('monetization');
+
+if (isWebMonetizationSupported) {
+    const link = document.querySelector('link[rel="monetization"]')
+    link.addEventListener('monetization', () => {
         showExclusiveContent()
     })
 }

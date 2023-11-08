@@ -15,7 +15,7 @@ A JavaScript browser API which allows the creation of a payment stream from the 
 3. Once set up go to you [Monetize Content](https://coil.com/settings/monetize) in settings.
 4. Here you'll see your wallet URL in the meta tag.
 5. The `provider_url` will be something like `$coil.xrptipbot.com` depending how you chose to be paid.
-6. The `unique_id` is everything after the `/`. **DO NOT** include the `/` in your `provider_url` or `unique_id`. 
+6. The `unique_id` is everything after the `/`. **DO NOT** include the `/` in your `provider_url` or `unique_id`.
 
 ### Installation
 
