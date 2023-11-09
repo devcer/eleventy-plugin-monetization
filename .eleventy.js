@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
     });
     eleventyConfig.addShortcode('monetize11ty', function (providerurl, username) {
         return `
-            <meta name="monetization" content="${providerurl}/${username}">
+            <link rel="monetization" href="${providerurl}/${username}" />
             <link rel="stylesheet" href="/assets/monetization.css">
             <script type="text/javascript" defer src="/assets/monet.js"></script>
         `
