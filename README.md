@@ -1,3 +1,5 @@
+# ! Looking for new owners to maintain this project ! #
+
 ## Monetize 11ty 
 
 An [Eleventy](https://www.11ty.dev/) plugin to monetize posts and site content by creating exclusive content areas.
