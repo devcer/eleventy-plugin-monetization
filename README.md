@@ -76,7 +76,7 @@ Add the below divs just above the `id="monetization-exclusive"` area. This will 
     This content is exclusive to my supporters.
   </p>
   <p>
-    Please install a <a href="https://chrome.google.com/webstore/detail/coil/locbifcbeldmnphbgkdigjmkbfkhbnca?hl=en" target="_blank">Web Monetization extension</a> to support me!
+    Please install a Web Monetization provider extension to support me!
   </p>
 </div>
 

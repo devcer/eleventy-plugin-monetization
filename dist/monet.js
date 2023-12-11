@@ -13,9 +13,7 @@ function showLoading () {
     document.getElementById('monetization-loading').classList.remove('monetization--hidden')
 }
 
-const isWebMonetizationSupported = document.createElement('link').relList.supports('monetization');
-
-if (isWebMonetizationSupported) {
+function addMonetizationEventListener() {
     const link = document.querySelector('link[rel="monetization"]')
     link.addEventListener('monetization', () => {
         showExclusiveContent()
@@ -23,9 +21,11 @@ if (isWebMonetizationSupported) {
 }
 
 window.addEventListener('load', () => {
-    if (!document.monetization) {
+    const isWebMonetizationSupported = document.createElement('link').relList.supports('monetization');
+    if (!isWebMonetizationSupported) {
         showCTA()
     } else {
         showLoading()
+        addMonetizationEventListener()
     }
 })
