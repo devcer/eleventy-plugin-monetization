@@ -8,14 +8,11 @@ A JavaScript browser API which allows the creation of a payment stream from the 
 
 [Find out more](https://webmonetization.org/)
 
-## Setup Coil to take payments
+## Setting up Web Monetization Provider
 
-1. Create an account at [coil.com](https://coil.com/).
-2. Start Monetizing by [becoming a creator](https://coil.com/creator).
-3. Once set up go to you [Monetize Content](https://coil.com/settings/monetize) in settings.
-4. Here you'll see your wallet URL in the meta tag.
-5. The `provider_url` will be something like `$coil.xrptipbot.com` depending how you chose to be paid.
-6. The `unique_id` is everything after the `/`. **DO NOT** include the `/` in your `provider_url` or `unique_id`.
+For Testing purposes, You will find the [Web Monetization Provider](https://github.com/interledger/web-monetization-extension/) here. You will find instructions to run the extension locally in the README.md file. Hopefully, we will have the extension published soon.
+
+If you would like to generate a sample payment pointer for testing. You could use [rafiki.money](https://rafiki.money/)
 
 ## Installation
 
