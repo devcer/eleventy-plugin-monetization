@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-monetization",
-  "version": "0.2.3",
+  "version": "0.2.5",
   "description": "An Eleventy plugin to monetize posts and site content",
   "main": ".eleventy.js",
   "repository": {
@@ -9,12 +9,12 @@
   },
   "keywords": [
     "eleventy",
-    "monetization"
+    "webmonetization"
   ],
-  "author": "Dan Canetti <indo@danielcanetti.com> (https://danielcanetti.com/)",
+  "author": "Santosh Viswanatham <viswanathamsantosh@gmail.com> (https://devcer.github.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DanCanetti/eleventy-plugin-monetization/issues"
+    "url": "https://github.com/devcer/eleventy-plugin-monetization/issues"
   },
-  "homepage": "https://github.com/DanCanetti/eleventy-plugin-monetization#readme"
+  "homepage": "https://github.com/devcer/eleventy-plugin-monetization#readme"
 }
