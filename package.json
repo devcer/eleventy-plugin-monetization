@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-monetization",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "An Eleventy plugin to monetize posts and site content",
   "main": ".eleventy.js",
   "repository": {
